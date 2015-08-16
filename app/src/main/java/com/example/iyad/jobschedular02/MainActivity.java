@@ -22,7 +22,8 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//
+        //
         Button btn = (Button) this.findViewById(R.id.btn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
